@@ -1,0 +1,19 @@
+<view class="cu-card case " wx:for="{{Data}}">
+	<view class="cu-item shadow">
+		<view class="image">
+			<image src="{{item.image}}" mode="widthFix"></image>
+			<view class="cu-bar bg-shadeBottom">
+				<text class="text-cut">{{item.name}}</text>
+			</view>
+		</view>
+		<view class="cu-list menu-avatar">
+			<view class="cu-item">
+			<view class="cu-avatar  lg" style="background-image:url(https://m.qpic.cn/psc?/V10nUXEb0Cx2Zl/zfrllz9Q9AzvUwq**DIV04pPd4742ARWonJOLnJt3r87UCpQcrZMAlfLCpX*Phy7XOKO06ZkVZJ4oTaZz*XNMQ!!/b&bo=ygDIAAAAAAADByA!&rf=viewer_4);"></view>
+				<view class="content flex-sub">
+				
+					<view class="text-grey">{{item.name}}的花语是{{item.language}}</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

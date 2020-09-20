@@ -1,0 +1,16 @@
+<view class="header">
+	<image class="bg_ware" src="https://moyv.top/wechat/images/bg_wave.gif">
+	</image>
+</view>
+<button class="btn1" bindtap="getToken" hover-class="btn-hover">
+	<view class="inbutton">
+		<image class="btnImg1" src="/image/photo.png"></image>
+		<text>识花知语</text>
+	</view>
+</button>
+<button class="btn2" bindtap="GoToSearch" hover-class="btn-hover">
+	<view class="inbutton">
+		<image class="btnImg2" src="/image/search.png"></image>
+		<text>怀语寻花</text>
+	</view>
+</button>

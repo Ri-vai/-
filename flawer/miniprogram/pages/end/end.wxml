@@ -1,0 +1,22 @@
+<view class="container">
+	<view class="img">
+		<image src="{{imgurl}}"></image>
+	</view>
+	<view class="info">
+		<view class="table">
+			<text style="font-size:38rpx;">识别结果</text>
+			<view class="tr" wx:for="{{itemData}}">
+				<view class="td">
+					<rich-text nodes="<b class='b'>_名称：{{item.name}}</b><br><b class='b'>_匹配度：{{score[index]}}%</b>"></rich-text>
+					<view class="baike" wx:if="{{item.baike_info.description}}">
+
+						<rich-text nodes="<b class='b'>_花语：{{langua}}</b><br>"></rich-text>
+
+						<rich-text nodes="<b class='b'>_百科资料：</b><br><img src='{{item.baike_info.image_url}}' style='float:left;clear: both;width:130px;height:130px;margin:8px 8px 8px 0;'>{{item.baike_info.description}}"></rich-text>
+					</view>
+
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

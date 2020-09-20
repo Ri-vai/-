@@ -1,0 +1,65 @@
+page{
+  background-color: #fff;
+}
+
+.header {
+  position: relative;
+  height:750rpx;
+  background: linear-gradient(to bottom, #e9d7df, #eea6b7);
+}
+.bg_ware {
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  width: 100%;
+  mix-blend-mode: screen;
+  height: 120rpx;
+}
+.btn1 {
+  /* 渐变色 */
+ background: linear-gradient(to right, #f1d1d1, #f3e1e1);
+ margin: 30px;
+ border-radius: 30px;
+ color:white;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn2 {
+  /* 渐变色 */
+ background: linear-gradient(to right, #abc2e8, #dbc6eb);
+ margin: 30px;
+ border-radius: 30px;
+ color:white;
+}
+.btn-hover{
+  position: relative;
+  top: 3rpx;
+  box-shadow:0px 0px 8px #999 inset; 
+}
+.btnImg1 {
+  margin-right: 1rpx;
+  width: 70rpx;
+  height: 58rpx;
+}
+.btnImg2 {
+  margin-right: 1rpx;
+  width: 61rpx;
+  height: 53rpx;
+}
+.inbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesize{
+  display: flex;
+  flex-direction: row;
+  
+  height: 20rpx;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+ }

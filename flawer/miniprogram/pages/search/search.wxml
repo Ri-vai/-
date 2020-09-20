@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<swiper autoplay interval="3000" circular indicator-dots indicator-color="#b598a1" indicator-active-color="#eea6b7">
+	<block wx:for="{{banner}}" wx:for-item="item">
+		<swiper-item>
+			<navigator url="{{item.address}}">
+				<image src='{{item.image}}' mode="widthFix" data-id="{{item.address}}">
+				</image>
+			</navigator>
+		</swiper-item>
+	</block>
+</swiper>
+
+
+<view class="box">
+	<view class="cu-bar search bg-white">
+		<view class="search-form round">
+			<text class="cuIcon-search"></text>
+			<input value='{{input_value}}' type="text" placeholder="输入想表达的花语或想了解的花" confirm-type="search" bindinput="getlanData"></input>
+		</view>
+		<view class="action">
+			<button class="cu-btn bg-pink shadow-blur round buttonsize" bindtap="SearchTranslate" >搜索</button>
+		</view>
+	</view>
+</view>
+<view>
+<button class='btn1' >
+  <image class='btnImg1' src='/image/hot.png' disable='false'></image>
+  <view>热搜</view>
+</button>
+</view>
+
+<view class="grid col-5 padding-sm">
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-red" role="button"  aria-disabled="false" data-text="爱情" bindtap='this_value'>爱情</button>
+  </view>
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-orange" role="button" aria-disabled="false"  data-text="母亲" bindtap='this_value'>母亲</button>
+  </view>
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-yellow" role="button" aria-disabled="false" data-text="老师" bindtap='this_value'>老师</button>
+  </view>
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-cyan" role="button" aria-disabled="false" data-text="暗恋" bindtap='this_value'>暗恋</button>
+  </view>
+
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-mauve" role="button" aria-disabled="false" data-text="财" bindtap='this_value'>财</button>
+  </view>
+  <view class="margin-tb-sm text-center">
+    <button class="cu-btn round bg-grey" role="button" aria-disabled="false" data-text="康复" bindtap='this_value'>康复</button>
+  </view>
+
+
+</view>

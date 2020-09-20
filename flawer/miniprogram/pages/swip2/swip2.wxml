@@ -1,0 +1,19 @@
+<view class="container">
+	<view class="img">
+		<image src="http://pic1.win4000.com/wallpaper/2018-05-14/5af92b7ba4771.jpg"></image>
+	</view>
+	<view class="info">
+		<view class="table">
+			
+			<view class="tr">
+				<view class="td">
+					<rich-text nodes="<b class='b'>_名称：七姊妹</b><br>"></rich-text>
+					<view class="baike">
+						<rich-text nodes="<b class='b'>_花语：坚强</b><br>"></rich-text>
+						<rich-text nodes="<b class='b'>_百科资料：</b><br><img src='https://bkimg.cdn.bcebos.com/pic/1ad5ad6eddc451da5af4c3eab5fd5266d01632b5?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U4MA==,xp_5,yp_5' style='float:left;clear: both;width:130px;height:130px;margin:8px 8px 8px 0;'>'七姊妹（学名：Rosa multiflora Thunb. var. carnea Thory ）也称十姐妹，是蔷薇科蔷薇属多花蔷薇的一个变种。花重瓣，深粉红色，常7-10朵簇生在一起，具芳香。蔷薇是落叶或半常绿灌木，茎直立或攀缘，通常有皮刺。叶互生，奇数羽状复叶，具托叶，小叶有锯齿。花单生或组成伞房花序,生于新梢顶端，花径一般约2厘米。栽培供观赏，可作护坡及棚架之用。'"></rich-text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,112 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+swiper{
+  width:100%;
+  height:calc(100vw*280/520);
+}
+image{ 
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.searchbox{
+  display:flex;
+  flex-direction:row;
+  border:1px solid #aaa;
+  width: 65%;
+  height:30px;
+  align-items:center;
+}
+.buttonsize{
+  background-color: #f1939c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 245, 245);/*内容颜色*/
+}
+.searchclass{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+  justify-content: center;
+}
+.flowerexample{
+  margin: 15px 10px 0px;
+  width: 40%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7%;
+  box-shadow: 0px 0px 5px 3px rgb(221, 221, 221);
+}
+.flexamflex1{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.flexamflex2{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.btnImg1 {
+  margin-right: 1rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+.hotsearch {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 0 30rpx;
+	font-size: 28rpx;
+  width: 15%;
+	height: 64rpx;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	overflow: visible;
+	margin: 30rpx;
+	transform: translate(0rpx, 0rpx);
+}
+.btnImg1 {
+  margin-right: 1rpx;
+
+}
+.btn1 {
+  width:22%;
+  height: 40rpx;
+  margin-top:5%;
+  margin-left: 3%;
+  background-color: rgb(235, 233, 234)34;
+  color: gray;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}

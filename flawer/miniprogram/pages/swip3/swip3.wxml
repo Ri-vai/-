@@ -1,0 +1,19 @@
+<view class="container">
+	<view class="img">
+		<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591801746006&di=e699cd9937d6d4b77cd835932d84033b&imgtype=0&src=http%3A%2F%2Fimage.shumiao.net%2Fuploads%2F20190107%2F11%2F1546833042-TrxevapDgX.jpg"></image>
+	</view>
+	<view class="info">
+		<view class="table">
+			
+			<view class="tr">
+				<view class="td">
+					<rich-text nodes="<b class='b'>_名称：风信子</b><br>"></rich-text>
+					<view class="baike">
+						<rich-text nodes="<b class='b'>_花语：燃生命之火,享丰富人生</b><br>"></rich-text>
+						<rich-text nodes="<b class='b'>_百科资料：</b><br><img src='https://bkimg.cdn.bcebos.com/pic/0ff41bd5ad6eddc4d72acfd83adbb6fd536633c7?x-bce-process=image/watermark,g_7,image_d2F0ZXIvYmFpa2U4MA==,xp_5,yp_5' style='float:left;clear: both;width:130px;height:130px;margin:8px 8px 8px 0;'>'风信子（学名：Hyacinthus orientalis L.）：是多年草本球根类植物，鳞茎卵形，有膜质外皮，皮膜颜色与花色成正相关，未开花时形如大蒜，原产地中海沿岸及小亚细亚一带，是研究发现的会开花的植物中最香的一个品种。喜阳光充足和比较湿润的生长环境，要求排水良好和肥沃的沙壤土等。全世界风信子的园艺品种约有2000种以上，主要分为“荷兰种”和“罗马种”两类。前者属正宗品种，绝大多数每株只长1支花葶，体势粗壮，花朵较大。而后者则多是变异的杂种，每株能着生二三支花葶，体势幼弱，花朵较细，多数消费者喜购荷兰风信子。'"></rich-text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
